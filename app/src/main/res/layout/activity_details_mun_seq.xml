@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/purple_700"
+    tools:context=".ui.dashboard.DetailsMunSeqActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/parent_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="361dp"
+                android:layout_height="655dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/radios">
+
+                    <TextView
+                        android:id="@+id/textView_entidad_munseq"
+                        android:layout_width="296dp"
+                        android:layout_height="32dp"
+                        android:background="@drawable/radios"
+                        android:backgroundTint="@color/purple_500"
+                        android:text="textView_entidad_munseq"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.058" />
+
+                    <TextView
+                        android:id="@+id/TXTV_MUNSEQ_CONCATENADA"
+                        android:layout_width="140dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/radios"
+                        android:backgroundTint="@color/purple_200"
+                        android:text="TXTV_MUNSEQ_CONCATENADA"
+                        android:textAlignment="center"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.892"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.165" />
+
+                    <TextView
+                        android:id="@+id/TXTV_MUNSEQ_TIPOSDESEQUIA"
+                        android:layout_width="142dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/radios"
+                        android:backgroundTint="@color/purple_200"
+                        android:text="TXTV_MUNSEQ_TIPOSDESEQUIA"
+                        android:textAlignment="center"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.888"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.632" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="140dp"
+                        android:layout_height="29dp"
+                        android:background="@drawable/radios"
+                        android:backgroundTint="@color/purple_500"
+                        android:text="Tipo de Sequia:"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.059"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.632" />
+
+                    <TextView
+                        android:id="@+id/TXTV_MUNSEQ_clave"
+                        android:layout_width="139dp"
+                        android:layout_height="33dp"
+                        android:background="@drawable/radios"
+                        android:backgroundTint="@color/purple_500"
+                        android:text="clave:"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.062"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.765" />
+
+                    <TextView
+                        android:id="@+id/TXTV_MUNSEQ_CLAVE"
+                        android:layout_width="139dp"
+                        android:layout_height="33dp"
+                        android:background="@drawable/radios"
+                        android:backgroundTint="@color/purple_200"
+                        android:text="TextView"
+                        android:textAlignment="center"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.885"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.765" />
+
+                    <TextView
+                        android:id="@+id/TXTV_MUNSEQ_concostera"
+                        android:layout_width="140dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="200dp"
+                        android:background="@drawable/radios"
+                        android:backgroundTint="@color/purple_500"
+                        android:text="Cuenca"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.072"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.31" />
+
+                    <TextView
+                        android:id="@+id/TXTV_MUNSEQ_CON_CUENCA"
+                        android:layout_width="140dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/radios"
+                        android:backgroundTint="@color/purple_200"
+                        android:text="TXTV_MUNSEQ_CON_CUENCA"
+                        android:textAlignment="center"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.888"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.524" />
+
+                    <TextView
+                        android:id="@+id/TXTV_MUNSEQ_orgcuenca"
+                        android:layout_width="137dp"
+                        android:layout_height="36dp"
+                        android:background="@drawable/radios"
+                        android:backgroundTint="@color/purple_500"
+                        android:text="Organismo de Cuenca:"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.058"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.395" />
+
+                    <TextView
+                        android:id="@+id/TXTV_MUNSEQ_ORG_CUENCA"
+                        android:layout_width="140dp"
+                        android:layout_height="32dp"
+                        android:background="@drawable/radios"
+                        android:backgroundTint="@color/purple_200"
+                        android:text="TXTV_MUNSEQ_ORG_CUENCA"
+                        android:textAlignment="center"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.888"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.397" />
+
+                    <TextView
+                        android:id="@+id/TXTV_MUNSEQ_municipio"
+                        android:layout_width="139dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/radios"
+                        android:backgroundTint="@color/purple_500"
+                        android:text="Municipio:"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.059"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.276" />
+
+                    <TextView
+                        android:id="@+id/TXTV_MUNSEQ_NOMBRE_MUN"
+                        android:layout_width="140dp"
+                        android:layout_height="39dp"
+                        android:background="@drawable/radios"
+                        android:backgroundTint="@color/purple_200"
+                        android:text="TXTV_MUNSEQ_NOMBRE_MUN"
+                        android:textAlignment="center"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.888"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.276" />
+
+                    <TextView
+                        android:id="@+id/TXTV_MUNSEQ_concatenada"
+                        android:layout_width="140dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/radios"
+                        android:backgroundTint="@color/purple_500"
+                        android:text="Clave de Registro"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.059"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.166" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="361dp"
+                        android:layout_height="107dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0"
+                        app:srcCompat="@drawable/_128" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

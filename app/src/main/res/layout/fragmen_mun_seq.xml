@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="510dp"
+    android:layout_height="200dp">
+
+    <LinearLayout
+        android:layout_width="438dp"
+        android:layout_height="171dp"
+        android:orientation="vertical"
+        android:padding="8dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="400dp"
+            android:layout_height="167dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="96dp"
+                    android:layout_height="79dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.016"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/planta" />
+
+                <TextView
+                    android:id="@+id/textView_Entidad"
+                    android:layout_width="82dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginEnd="228dp"
+                    android:layout_marginBottom="125dp"
+                    android:text="Entidad:"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/TXTVMunseq_Entidad"
+                    android:layout_width="171dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginEnd="29dp"
+                    android:layout_marginBottom="125dp"
+                    android:text="TXTVMunseq_Entidad"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView_Entidad"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView_Munipio"
+                    android:layout_width="82dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginEnd="228dp"
+                    android:text="Munipio:"
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView_Entidad"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/TXTVMunseq_municipio"
+                    android:layout_width="171dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginEnd="29dp"
+                    android:layout_marginBottom="71dp"
+                    android:text="TXTVMunseq_municipio"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView_Munipio"
+                    app:layout_constraintTop_toBottomOf="@+id/TXTVMunseq_Entidad"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <TextView
+                    android:id="@+id/textView_TipoSeq"
+                    android:layout_width="76dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginEnd="228dp"
+                    android:layout_marginBottom="43dp"
+                    android:text="Tipo de Sequía:"
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.411"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView_Munipio"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/TXTVMunseq_Tip_Sequia"
+                    android:layout_width="171dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="41dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginEnd="115dp"
+                    android:layout_marginBottom="34dp"
+                    android:text="TXTVMunseq_Tip_Sequia"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.151"
+                    app:layout_constraintStart_toEndOf="@+id/textView_TipoSeq"
+                    app:layout_constraintTop_toBottomOf="@+id/TXTVMunseq_municipio"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/TXTV_CLAVE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="TextView"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

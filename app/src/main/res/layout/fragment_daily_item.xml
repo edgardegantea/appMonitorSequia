@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="510dp"
+    android:layout_height="200dp">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="197dp"
+        android:layout_marginStart="24dp"
+        android:orientation="vertical"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666"
+        tools:ignore="MissingConstraints">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="400dp"
+            android:layout_height="200dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+
+                    android:layout_width="149dp"
+                    android:layout_height="17dp"
+                    android:layout_marginTop="136dp"
+                    android:layout_marginEnd="148dp"
+                    android:text="Precipitación: "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textViewDailyPRECIPITACION"
+                    android:layout_width="119dp"
+                    android:layout_height="17dp"
+                    android:layout_marginTop="136dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="textViewDailyPRECIPITACION"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textDailyCielo"
+                    android:layout_width="92dp"
+                    android:layout_height="42dp"
+                    android:text="Descripción del cielo: "
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.352"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.175" />
+
+                <TextView
+                    android:id="@+id/txtvID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="txtvID"
+                    tools:layout_editor_absoluteX="330dp"
+                    tools:layout_editor_absoluteY="156dp" />
+
+                <TextView
+                    android:id="@+id/textDailyMunicipío"
+                    android:layout_width="96dp"
+                    android:layout_height="27dp"
+                    android:text="Municipío: "
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.338"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.502" />
+
+                <TextView
+                    android:id="@+id/textViewDailyMUNICIPIO"
+                    android:layout_width="103dp"
+                    android:layout_height="41dp"
+                    android:text="textViewDailyMUNICIPIO"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.801"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textViewDailyCielo"
+                    android:layout_width="115dp"
+                    android:layout_height="16dp"
+                    android:layout_marginStart="136dp"
+                    android:layout_marginTop="32dp"
+                    android:text="textViewDailyCielo"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.683"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="99dp"
+                    android:layout_height="179dp"
+                    app:srcCompat="@drawable/_088080" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
